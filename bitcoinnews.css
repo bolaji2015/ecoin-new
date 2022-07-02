@@ -71,20 +71,66 @@ li a:hover{
     padding: 30px;
     position: relative;
     left: 60px;
+    width: 90%;
 }
 @media(max-width:1000px){
     .anglesection{
         display: flex;
         flex-wrap: wrap;
         justify-content:space-around;
+    }   
+}
+@media(max-width:1000px){
+.firstgeneralcontainer{
+    max-width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+@media(max-width:1000px){
+.firstsubdiv{
+    max-width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+@media(max-width:1000px){
+.imagetext{
+    width:max-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+@media(max-width:1000px){
+.firstsubdiv h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+@media(max-width:1000px){
+    .firstsubdiv img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+    position:relative;
     }
 }
-.combinebitcoincryp{
-    display: fle
+@media(max-width:1000px){
+    .thirdsubdiv{
+    max-width: fit-content;
+    display:flex;
+    flex-wrap:wrap;
+    position:fixed;
+    }
+}
+@media(max-width:1000px){
+.bitcoincryp{
+    display: flex;
+    flex-wrap: wrap;
     
 }
-.secondsubdiv{
-    width: 30%;
 }
 .firstgeneralcontainer{
     display: flex;
@@ -96,6 +142,9 @@ li a:hover{
     position: relative;
     left: 80px;
     padding-left:5% ;
+    
+}
+.firstsubdiv img:hover{
     
 }
 .btc{
@@ -121,3 +170,19 @@ li a:hover{
     background-color: rgba(8, 2, 2, 0.973);
     border-radius: 5px;
 }
+.groupfontawesome{
+font-size: 15px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgb(54, 44, 44);
+
+    
+}
+.icon1{
+    display: flex;
+}
+.icon2{
+    display: flex;
+}
+.icon3{
+    display: flex;
+}   
