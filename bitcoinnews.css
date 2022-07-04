@@ -303,10 +303,30 @@ color: rgb(54, 44, 44);
         display: inline-block;
     }
 }
+.hi{
+    display: flex;
+}
+.pofhi{
+    
+}
 .images{
     
 }
 .thirdgeneralcontainer{
     display: flex;
     width: 100%;
+}
+.secondicongroup{
+    border-bottom: 1px solid black;
+    padding-bottom: 40%;
+    display: block;
+}
+.fourthgeneralcontainer{
+    display: flex;
+}
+.fifthgeneralcontainer{
+    display: flex;
+}
+.sixthgeneralcontainer{
+    display: flex;
 }
