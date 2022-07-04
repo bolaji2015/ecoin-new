@@ -330,3 +330,36 @@ color: rgb(54, 44, 44);
 .sixthgeneralcontainer{
     display: flex;
 }
+.footer{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding-top: 100px;
+    background-color: rgb(24, 24, 78);
+    
+
+}
+.footer i:hover{
+    color: aqua;
+    
+}
+.footertext{
+        display: flex;
+        color: yellow;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        background-color: blue;
+        
+}
+.footer a{
+    text-decoration:none;
+}
+.footernavbar{
+    position:relative;
+    left: 40%;
+    padding-top: 50px;
+    width: fit-content;
+    
+    
+    
+}
