@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.category{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.category1{
+    width: 60%;
+    margin-right: 10%;
+}
+.category1 h2{
+    text-align: center;
+}
+.sub{
+    display: flex;
+    
+}
+.btn1{
+    margin-left: 10px;
+}
+.btn1 button{
+    color: gold;
+    background-color: rgb(30, 30, 59);
+}
+.category2{
+    width: 30%;
+}
+.newsletter h4{
+    color: white;
+    background-color: rgb(24, 24, 129);
+    padding: 2%;
+}
+
+.socialnetwork h4{
+    color: white;
+    background-color: rgb(24, 24, 129);
+    padding: 2%;
+}
+.line2{
+    display: flex;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sub-col{
+    display: flex;
+}
+.recentpost h4{
+    color: white;
+    background-color: rgb(24, 24, 129);
+    padding: 2%;
+}
+.col1{
+    width: 60%;
+    margin-right: 10%;
+}
+.col2{
+    width: 30%;
+}
+.line3{
+    display: flex;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sub-row{
+    display: flex;
+}
+.row1{
+    width: 60%;
+    margin-right: 10%;
+}
+.row2{
+    width: 30%;
+}
+.cash{
+    display: flex;
+}
+.cash img{
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+@media(max-width:930px){
+    .category{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .category1{
+        width: 100%;
+        
+    }
+    .sub{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #img1{
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .category2{
+        width: 100%;
+    }
+    .line2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col1{
+        width: 100%;
+    }
+    .sub-col{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col2{
+        width: 100%;
+    }
+
+    .line3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row1{
+        width: 100%;
+    }
+    .sub-row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row2{
+        width: 100%;
+    }
+}
