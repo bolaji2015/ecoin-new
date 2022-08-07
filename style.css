@@ -12,6 +12,18 @@ li a{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     
 }
+.imagetext img{
+    width: 60%;
+    height: 300px;
+    border-radius: 10px;
+}
+.imagetext h1{
+    padding-left: 30%;
+    color: black;
+}
+.imagetext h1 span{
+    color: gold;
+}
 ul{
     display: flex;
     padding: 10px;
@@ -37,34 +49,8 @@ li a:hover{
     color:black;
     background-color: red;
 }
-@media(max-width:1000px){
-    ul{
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-@media(max-width:1000px){
-    .navbar{
-        display: flex;
-        flex-wrap: wrap;
-        background-color: orange;
-    }
-}
-@media(max-width:1000px){
-    .righttext{
-        display: flex;
-        flex-wrap: wrap;
-        background-color: red;
-        color: gray;
-    }
-}
-@media(max-width:1000px){
-    li a:hover{
-        padding:2px;
-        color:red;
-        background-color: green;
-    }
-}
+
+
 .anglesection{
     display: flex;
     color: grey;
@@ -73,115 +59,24 @@ li a:hover{
     left: 60px;
     width: 90%;
 }
-/* @media(max-width:1000px){
-    .anglesection{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:space-around;
-    }   
-} */
-@media(max-width:1000px){
-.firstgeneralcontainer{
-    width: 100%;
-    max-width: fit-content;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-}
-@media(max-width:1000px){
-.firstsubdiv{
-    max-width: fit-content;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-}
-@media(max-width:1000px){
-    .secondsubdiv{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        padding-top: 30%;
-    }
-}
-@media(max-width:1000px){
-    body{
-        
-        
-    }
-}
 
-@media(max-width:1000px){
-.imagetext{
-    width:max-content;
-    display: flex;
-    flex-wrap: wrap;
-    width:100%;
-}
-}
-@media(max-width:1000px){
-.firstsubdiv h1{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-}
-@media(max-width:1000px){
-    .firstsubdiv img{
-        width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:start;
-    position:relative;
-    }
-}
-@media(max-width:1000px){
-    .thirdsubdiv{
-    max-width: fit-content;
-    display:flex;
-    flex-wrap:wrap;
-    position:fixed;
-    width: 100%;
-    }
-}
-@media(max-width:1000px){
-.bitcoincryp{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    
-}
-}
-@media(max-width:1000px){
-.secondsubdiv h2{
-width:100%;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
 
-}
-}
 
 .firstgeneralcontainer{
     display: flex;
-    max-width: 100%;
+    width: 100%;
+    flex-wrap: wrap;
     
 }
 .firstsubdiv{
     width: 40%;
-    position: relative;
-    left: 80px;
     padding-left:5% ;
     
 }
 .separatediv{
     display: flex;
 }
-.secondgeneralcontainer{
-    display:flex
-}
+
 .btc{
   position: relative;
   right: 10px;
@@ -192,6 +87,12 @@ justify-content: center;
     padding-right: 10%;
     width:30%;
 }
+/* .thirdsubdiv2{
+    position: relative;
+    top: 70px;
+    padding-right: 10%;
+    width:30%;
+} */
 .firsticongroup{
     color: rgb(49, 43, 43);
     font-size: 15px;
@@ -220,348 +121,31 @@ color: rgb(54, 44, 44);
 .icon3{
     display: flex;
 }   
-@media(max-width:1000px){
-.groupfontawesome{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-}
-@media(max-width:1000px){
-.icon1{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-}
-@media(max-width:1000px){
-    .icon2{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-@media(max-width:1000px){
-    .icon3{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
+
 .secondgeneralcontainer{
     display: flex;
+    flex-wrap: wrap;
     padding-left: 10%;
 }
-.thirdsubdiv{
+/* .thirdsubdiv{
     position: relative;
     left: 30px;
     
-}
+} */
 .secondcontainersecondsubdiv{
     position: relative;
     left: 13%;
     width: 32%;
 }
-@media(max-width:1000px){
-    .secondgeneralcontainer{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        
-    }
-}
-@media(max-width:1000px){
-    .separateimg{
-        width: 100%;
-        
-        
-    }
-}
-@media(max-width:1000px){
-.secondcontainersecondsubdiv{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 20%;
-}  
-}
-@media(max-width:1000px){
-.thirdsubdiv{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-}@media(max-width:1000px){
-    .secondcontainersecondsubdiv h2{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        display: inline-block;
-    }
-}
-@media(max-width:1000px){
-    .secondcontainersecondsubdiv{
-        width: fit-content;
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-@media(max-width:1000px){
-    .secondcontainersecondsubdiv h1 h5{
-        width: fit-content;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-@media(max-width:1000px){
-    .thirdgeneralcontainer{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-@media(max-width:1000px){
-    .thirdsubdiv{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-@media(max-width:1000px){
-    .bitcoincryp{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-@media(max-width:1000px){
-    .btc{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:space-around;
-    }
-}
-@media(max-width:1000px){
-    .thirdsubdiv p{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:space-around;
-    }
-}
-@media(max-width:1000px){
-    .thirdsubdiv h5{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:space-around;
-    }
-}
-@media(max-width:1000px){
-    .thirdsubdiv i{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
-@media(max-width:1000px){
-    .cryp{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:space-around;
-    }
-}
-@media(max-width:1000px){
-    .secondicongroup{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
-@media(max-width:1000px){
-    .images2{
-        width: 70%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
-@media(max-width:1000px){
-    .images1{
-        width: 70%;
-        display: flex;
-        flex-wrap: wrap;
-        
 
-    }
-}
-@media(max-width:1000px){
-    .fourthgeneralcontainer{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-@media(max-width:1000px){
-    .fourthimgtext1{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
-@media(max-width:1000px){
-    .fourthimgtext2{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
-@media(max-width:1000px){
-    .fourthimgtext3{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
-@media(max-width:1000px){
-    .fifthgeneralcontainer{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
-@media(max-width:1000px){
-    .partoffifth1{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
-@media(max-width:1000px){
-    .partoffifth2{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
-@media(max-width:1000px){
-    .partoffifth3{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
-@media(max-width:1000px){
-    .sixthgeneralcontainer{
-        width: 100%;
-    }
-}
-@media(max-width:1000px){
-    .sixthfirstgr{
-    width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
-
-@media(max-width:1000px){
-    .sixthsecondgr{
-    width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
-@media(max-width:1000px){
-    .sixthsecondgr{
-    width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
-@media(max-width:1000px){
-    .sixthsecondgr{
-    width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
-@media(max-width:1000px){
-    .sixthsecondgroup{
-    width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
-@media(max-width:1000px){
-    .sixthimg{
-    width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
-@media(max-width:1000px){
-    .footer{
-    width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
-@media(max-width:1000px){
-    .footernavbar{
-    width: 90%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
-@media(max-width:1000px){
-    .footertext{
-    width: 100;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:space-between;
-    }
-}
-@media(max-width:1000px){
-    body{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    }
-}
 .hi{
     display: flex;    
 }
-.images{
-    
-}
 .thirdgeneralcontainer{
+    display: flex;
+    width: 100%;
+}
+.thirdsubdiv2{
     display: flex;
     width: 100%;
 }
@@ -607,7 +191,95 @@ color: rgb(54, 44, 44);
     left: 40%;
     padding-top: 50px;
     width: fit-content;
-    
-    
+}
+.secondgeneralcontainer img{
+   position: relative;
+   top: 30px;
+   border-radius: 20%;
+   height: 300px;
+   width: 25%; 
+}
+.secondcontainersecondsubdiv img{
+    width: 60%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+@media(max-width:768px){
+    .thirdsubdiv{
+        position: unset;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 16% 15%;
+    }
+    .firstsubdiv{
+        width: 100%;
+    }
+    .secondgeneralcontainer img{
+    width: 89%;
+    }
+}
+.footer{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.secondcontainersecondsubdiv img{
+    width: 239px;
+}
+@media(max-width:1100px){
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .thirdsubdiv{
+        display: flex;
+        flex: wra;
+    }
+    .firstgeneralcontainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imagetext{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+    .imagetext img{
+        width: 100%;
+    }
+    .secondsubdiv h2{
+        width: 100%;
+
+    }
+
+    .navbar image{
+        display: flex;
+    }
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: orange;
+    }
+    .righttext{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: red;
+        color: gray;
+    }
+    li a:hover{
+        padding:2px;
+        color:red;
+        background-color: green;
+    }
+}
+
+@media(max-width:768px){
+    .imagetext h1{
+        
+        padding-left: 0px;
+        width: 100%;   
+    }
     
 }
